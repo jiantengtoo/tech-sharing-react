@@ -13,7 +13,7 @@ function HistoryBoard(props) {
         historyArr.map(
           (history, index) => {
             return (
-              <div key={ index }>{ history.result }</div>
+              <div key={ index }>{ history.result.toFixed(2) }</div>
             )
           }
         )
